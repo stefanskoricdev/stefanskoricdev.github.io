@@ -421,7 +421,9 @@ body {
           margin: 50px auto;
           padding: 10px;
           position: relative;
-          opacity: 0; }
+          opacity: 0;
+          background-size: cover;
+          background-position: center; }
           body .portfolio-page-wrapper .portfolio-page .project-wrapper .project .cover {
             width: 100%;
             height: 100%;
@@ -473,17 +475,11 @@ body {
         body .portfolio-page-wrapper .portfolio-page.left .project-wrapper.pw-left .cover a {
           color: #b34437; }
       body .portfolio-page-wrapper .portfolio-page.left .project-wrapper.pw-left .project.first {
-        background-image: url("../img/Portfolio/jwstudio.jpg");
-        background-size: cover;
-        background-position: center; }
+        background-image: url("../img/Portfolio/jwstudio.jpg"); }
       body .portfolio-page-wrapper .portfolio-page.left .project-wrapper.pw-left .project.second {
-        background-image: url("../img/Portfolio/log-in.jpg");
-        background-size: cover;
-        background-position: center; }
+        background-image: url("../img/Portfolio/log-in.jpg"); }
       body .portfolio-page-wrapper .portfolio-page.left .project-wrapper.pw-left .project.third {
-        background-image: url("../img/Portfolio/my_favourite_movies_app.jpg");
-        background-size: cover;
-        background-position: center; }
+        background-image: url("../img/Portfolio/my_favourite_movies_app.jpg"); }
     body .portfolio-page-wrapper .portfolio-page.right h1 {
       color: #b34437;
       -webkit-transform: translateX(450%);
@@ -497,13 +493,9 @@ body {
       body .portfolio-page-wrapper .portfolio-page.right .project-wrapper.pw-right .cover a {
         color: whitesmoke; }
     body .portfolio-page-wrapper .portfolio-page.right .project-wrapper.pw-right .project.first {
-      background-image: url("../img/Portfolio/to_do_app.jpg");
-      background-size: contain;
-      background-position: center; }
+      background-image: url("../img/Portfolio/to_do_app.jpg"); }
     body .portfolio-page-wrapper .portfolio-page.right .project-wrapper.pw-right .project.second {
-      background-image: url("../img/Portfolio/base_apparel.jpg");
-      background-size: cover;
-      background-position: center; }
+      background-image: url("../img/Portfolio/base_apparel.jpg"); }
   body .portfolio-page-wrapper.loaded .portfolio-page h1 {
     -webkit-transform: translateX(0);
     -moz-transform: translateX(0);
@@ -899,7 +891,7 @@ body {
   body .home-page-wrapper .main-wrapper .right .right-text-wrapper p {
     width: 100%; }
   body .portfolio-page-wrapper .portfolio-page .project-wrapper .project {
-    width: 500px; }
+    width: 600px; }
   body .contact-page-wrapper .contact-page .contact-me {
     height: 650px; }
   body .contact-page-wrapper .contact-page.cp-left .contact-me.box-left h1 {
@@ -939,7 +931,7 @@ body {
     body .about-page-wrapper .box .description {
       width: 70%; }
     body .portfolio-page-wrapper .portfolio-page .project-wrapper .project {
-      width: 400px;
+      width: 500px;
       height: 250px; }
       body .portfolio-page-wrapper .portfolio-page .project-wrapper .project .cover a {
         margin-top: 100px; }
@@ -1175,6 +1167,7 @@ body {
     body .portfolio-page-wrapper .portfolio-page {
       padding-top: 50px; }
       body .portfolio-page-wrapper .portfolio-page .project-wrapper .project {
+        width: 500px;
         height: 180px; }
         body .portfolio-page-wrapper .portfolio-page .project-wrapper .project .cover a {
           margin-top: 50px; }
