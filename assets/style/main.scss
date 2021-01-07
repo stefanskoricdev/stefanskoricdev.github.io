@@ -241,7 +241,7 @@ body {
 
             .right {
                 width: 0%;
-                padding: 5% 0 20px;
+                padding: 5% 0 0;
                 -webkit-transform: translateX(150%);
                 -moz-transform: translateX(150%);
                 -ms-transform: translateX(150%);
@@ -378,7 +378,7 @@ body {
 
     /*-------------FIRST PAGE END---------*/
     .space-page-wrapper {
-        height: 500px;
+        height: 200px;
         display: flex;
         flex-direction: row;
 
@@ -564,7 +564,7 @@ body {
     /*-------------SECOND (ABOUT PAGE) PAGE END---------*/
     .portfolio-page-wrapper {
         display: flex;
-
+        border: 2px solid black;
         .portfolio-page {
             width: 50%;
             position: relative;
@@ -586,6 +586,7 @@ body {
 
                 .project {
                     width: 600px;
+                    max-width: 90%;
                     height: 300px;
                     border-radius: 20px;
                     margin: 50px auto;

@@ -7,7 +7,7 @@ const burgerResponsive = document.querySelector(".burger-responsive");
 const navResponsive = document.querySelector(".nav-responsive");
 const navRespLink = document.querySelectorAll(".responsive-link");
 
-const mqlNav = window.matchMedia("(min-width: 1023px)");
+const mqlNav = window.matchMedia("(min-width: 1000px)");
 
 function screenSizeMatch() {
   if (mqlNav.matches) {
