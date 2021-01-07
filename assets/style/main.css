@@ -397,8 +397,7 @@ body {
     -o-transition: opacity 500ms linear 1.6s;
     transition: opacity 500ms linear 1.6s; }
   body .portfolio-page-wrapper {
-    display: flex;
-    border: 2px solid black; }
+    display: flex; }
     body .portfolio-page-wrapper .portfolio-page {
       width: 50%;
       position: relative;
