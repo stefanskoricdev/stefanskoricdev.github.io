@@ -28,12 +28,13 @@
         <img src="assets/img/backgroundpattern2.svg" alt="">
     </div>
     <header id="header">
-
         <div class="logo">
             <a href="index.html">
-                <source srcset="assets/img/logo_responsive.svg" media="(max-width: 1000px)">
-                <!--Serves to change image on screen width lower then 1000px-->
-                <img src="assets/img/logo.png" alt="logo">
+                <picture>
+                    <source srcset="assets/img/logo_responsive.svg" media="(max-width: 1000px)">
+                    <!--Serves to change image on screen width lower then 1000px-->
+                    <img src="assets/img/logo.png" alt="logo">
+                </picture>
             </a>
         </div>
         <div class="burger-responsive">
@@ -68,13 +69,12 @@
                 <a href="#contact">Contact</a>
             </nav>
         </div>
-
         <div class="main-wrapper">
             <div class="left"></div>
-            <div class="picture">
+            <picture class="picture">
                 <source srcset="assets/img/developer_responsive.png" media="(max-width: 1000px)">
                 <img src="assets/img/developer.png" alt="developer">
-            </div>
+            </picture>
             <div class="right">
                 <div class="right-text-wrapper">
                     <h1>Stefan Škorić</h1>
@@ -182,7 +182,7 @@
                 <h1>Contact me</h1>
                 <h2>Thank you for your interest in my services</h2>
                 <h3>Feel free to contact me</h3>
-                <form class="contact-form" action="">
+                <form class="contact-form">
                     <input type="text" name="name" placeholder="Name" value="">
                     <input type="email" name="email" placeholder="Email" value="">
                     <textarea name="message" id="msg" cols="30" rows="10" placeholder="Message"></textarea>
@@ -252,9 +252,10 @@
         <h1>Stefan Škorić Front end web developer portfolio</h1>
         <p>&copy 2020 StephDev. | Created by Stefan Škorić | All rights reserved</p>
     </div>
-
+    <!--JS scripts:-->
+    <script src=assets/java/navigation.js defer></script>
+    <script src=assets/java/intersection.js defer></script>
 </body>
-<script src=assets/java/navigation.js defer></script>
-<script src=assets/java/intersection.js defer></script>
+
 
 </html>
