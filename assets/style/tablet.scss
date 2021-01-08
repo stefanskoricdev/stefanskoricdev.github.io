@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap');
+$mainFont: 'Poppins';
+$Merri: 'Merriweather';
+$mainColor:rgba(179, 68, 55, 1);
+$whiteish: rgb(245, 245, 245);
+*{
+    font-size: 45%;
+}
+body{
+    width: 100%;
+    header{
+        height: 50px;
+        width: 100vw;
+        background-color: $whiteish;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        .logo{
+            padding-left: 5px;
+            width: 150px;
+        }
+        
+        @import "nav-responsive";
+        
+        
+    }
+    /*----------HEADER END------------------------------------------*/
+    .home-page-wrapper{
+        padding-top: 50px;
+        .navigation-wrapper{
+            display: none;
+        }
+        .main-wrapper{
+            width: 100%;
+            .picture{
+                top: 10px;
+                left: 5px;
+                width: 350px;
+                height: 600px;
+                img{
+                    border: none;
+                }
+            }
+            .right{
+                .right-text-wrapper{
+                    h2{
+                        font-size: 2.5rem;
+                    }
+                    p{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        .main-wrapper.loaded{
+            height: auto;
+            .left{
+                width: 50%;
+            }
+            .right{
+                width: 50%;
+                .right-text-wrapper{
+                    width: 90%;
+                    height: 600px;
+                    margin: 0 5%;
+                }
+            }
+        }
+    }
+    .space-page-wrapper{
+        display: none;
+    }
+    .about-page-wrapper{
+        .box{
+            h1{
+                top: 100px;
+            }
+            .description{
+                margin: 50px auto;
+            }
+        } 
+    }
+    .portfolio-page-wrapper{
+        .portfolio-page{
+            padding-top: 50px;
+            .project-wrapper{
+                .project{
+                    width: 500px;
+                    height: 180px;
+                    .cover{
+                        a{
+                            margin-top: 50px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .contact-page-wrapper{
+        .contact-page{
+            .contact-me{
+                width: 100%;
+            }
+        }
+        .contact-page.cp-left{
+            .contact-me.box-left{
+                .contact-form{
+                    width: 80%;
+                }
+            }
+        } 
+    }
+    footer{
+        .footer-box.left{
+            .footer-message{
+                display: none;
+            }
+            .footer-contact{
+                width: 80%;
+            }
+        }
+    }
+}
+/*RESPONSIVE NAVIGATION ANIMATION START*/
+@keyframes line1 {
+    from{
+        top: 10px;
+    }
+    to{
+        top: 5px;
+    }
+}
+@keyframes line1Active {
+    from{
+        top: 5px;
+    }
+    to{
+        top: 10px;
+    } 
+}
+@keyframes line3 {
+    from{
+        top: 10px;
+    }
+    to{
+        bottom: 5px;
+    }
+}
+@keyframes line3Active {
+    from{
+        bottom: 5px;
+    }
+    to{
+        top: 10px;
+    } 
+}
+/*--------------LINE 3 END-----------------*/
+/*RESPONSIVE NAVIGATION ANIMATION END*/

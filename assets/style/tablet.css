@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap");
+* {
+  font-size: 45%; }
+
+body {
+  width: 100%;
+  /*----------HEADER END------------------------------------------*/ }
+  body header {
+    height: 50px;
+    width: 100vw;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0; }
+    body header .logo {
+      padding-left: 5px;
+      width: 150px; }
+    body header .burger-responsive {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 0 20px;
+      width: 40px;
+      height: 80%;
+      position: relative; }
+      body header .burger-responsive div {
+        content: "";
+        height: 4px;
+        width: 35px;
+        background-color: #b34437;
+        margin-top: 8px;
+        border-radius: 4px;
+        position: absolute; }
+      body header .burger-responsive #line1 {
+        top: 5px;
+        -webkit-transform: rotate(0);
+        -moz-transform: rotate(0);
+        -ms-transform: rotate(0);
+        -o-transform: rotate(0);
+        transform: rotate(0);
+        animation: line1 200ms linear;
+        -webkit-animation: line1 200ms linear;
+        -moz-animation: line1 200ms linear;
+        -ms-animation: line1 200ms linear;
+        -o-animation: line1 200ms linear;
+        animation: line1 200ms linear; }
+      body header .burger-responsive #line2 {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+        transform: translateX(0);
+        -webkit-transition: transform 200ms linear, opacity 200ms linear;
+        -moz-transition: transform 200ms linear, opacity 200ms linear;
+        -ms-transition: transform 200ms linear, opacity 200ms linear;
+        -o-transition: transform 200ms linear, opacity 200ms linear;
+        transition: transform 200ms linear, opacity 200ms linear; }
+      body header .burger-responsive #line3 {
+        bottom: 5px;
+        -webkit-transform: rotate(0);
+        -moz-transform: rotate(0);
+        -ms-transform: rotate(0);
+        -o-transform: rotate(0);
+        transform: rotate(0);
+        -webkit-animation: line3 200ms linear;
+        -moz-animation: line3 200ms linear;
+        -ms-animation: line3 200ms linear;
+        -o-animation: line3 200ms linear;
+        animation: line3 200ms linear; }
+    body header .burger-responsive.active #line1 {
+      position: absolute;
+      top: 10px;
+      -webkit-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+      transform: rotate(45deg);
+      -webkit-transition: transform 200ms linear;
+      -moz-transition: transform 200ms linear;
+      -ms-transition: transform 200ms linear;
+      -o-transition: transform 200ms linear;
+      transition: transform 200ms linear;
+      -webkit-animation: line1Active 200ms linear;
+      -moz-animation: line1Active 200ms linear;
+      -ms-animation: line1Active 200ms linear;
+      -o-animation: line1Active 200ms linear;
+      animation: line1Active 200ms linear; }
+    body header .burger-responsive.active #line2 {
+      -webkit-transform: translateX(-200%);
+      -moz-transform: translateX(-200%);
+      -ms-transform: translateX(-200%);
+      -o-transform: translateX(-200%);
+      transform: translateX(-200%);
+      opacity: 0; }
+    body header .burger-responsive.active #line3 {
+      position: absolute;
+      top: 10px;
+      -webkit-transform: rotate(-45deg);
+      -moz-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+      -o-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+      -webkit-transition: transform 200ms linear;
+      -moz-transition: transform 200ms linear;
+      -ms-transition: transform 200ms linear;
+      -o-transition: transform 200ms linear;
+      transition: transform 200ms linear;
+      -webkit-animation: line2Active 200ms linear;
+      -moz-animation: line2Active 200ms linear;
+      -ms-animation: line2Active 200ms linear;
+      -o-animation: line2Active 200ms linear;
+      animation: line2Active 200ms linear; }
+    body header .nav-responsive {
+      position: absolute;
+      top: 50px;
+      right: 0;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 150vh;
+      background-color: rgba(179, 68, 55, 0.9);
+      -webkit-transform: translateX(110%);
+      -moz-transform: translateX(110%);
+      -ms-transform: translateX(110%);
+      -o-transform: translateX(110%);
+      transform: translateX(110%);
+      opacity: 0;
+      -webkit-transition: transform 400ms ease-in-out, opacity 400ms ease-in-out;
+      -moz-transition: transform 400ms ease-in-out, opacity 400ms ease-in-out;
+      -ms-transition: transform 400ms ease-in-out, opacity 400ms ease-in-out;
+      -o-transition: transform 400ms ease-in-out, opacity 400ms ease-in-out;
+      transition: transform 400ms ease-in-out, opacity 400ms ease-in-out; }
+      body header .nav-responsive .nav-responsive-links {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column; }
+        body header .nav-responsive .nav-responsive-links a {
+          font-family: "Merriweather";
+          font-size: 3.5rem;
+          text-decoration: underline;
+          text-transform: uppercase;
+          color: whitesmoke;
+          text-align: center;
+          display: block;
+          margin: 20px auto; }
+      body header .nav-responsive .nav-responsive-message {
+        color: whitesmoke;
+        text-align: center;
+        width: 60%;
+        margin: 30px auto; }
+        body header .nav-responsive .nav-responsive-message h1 {
+          font-size: 3.5rem;
+          margin: 20px auto; }
+        body header .nav-responsive .nav-responsive-message h2, body header .nav-responsive .nav-responsive-message a {
+          font-size: 3rem;
+          color: whitesmoke;
+          text-decoration: none;
+          margin: 20px auto; }
+    body header .nav-responsive.active {
+      transform: translateX(0);
+      opacity: 1;
+      transition: transform 400ms ease-in-out, opacity 400ms ease-in-out;
+      z-index: 2000; }
+  body .home-page-wrapper {
+    padding-top: 50px; }
+    body .home-page-wrapper .navigation-wrapper {
+      display: none; }
+    body .home-page-wrapper .main-wrapper {
+      width: 100%; }
+      body .home-page-wrapper .main-wrapper .picture {
+        top: 10px;
+        left: 5px;
+        width: 350px;
+        height: 600px; }
+        body .home-page-wrapper .main-wrapper .picture img {
+          border: none; }
+      body .home-page-wrapper .main-wrapper .right .right-text-wrapper h2 {
+        font-size: 2.5rem; }
+      body .home-page-wrapper .main-wrapper .right .right-text-wrapper p {
+        width: 100%; }
+    body .home-page-wrapper .main-wrapper.loaded {
+      height: auto; }
+      body .home-page-wrapper .main-wrapper.loaded .left {
+        width: 50%; }
+      body .home-page-wrapper .main-wrapper.loaded .right {
+        width: 50%; }
+        body .home-page-wrapper .main-wrapper.loaded .right .right-text-wrapper {
+          width: 90%;
+          height: 600px;
+          margin: 0 5%; }
+  body .space-page-wrapper {
+    display: none; }
+  body .about-page-wrapper .box h1 {
+    top: 100px; }
+  body .about-page-wrapper .box .description {
+    margin: 50px auto; }
+  body .portfolio-page-wrapper .portfolio-page {
+    padding-top: 50px; }
+    body .portfolio-page-wrapper .portfolio-page .project-wrapper .project {
+      width: 500px;
+      height: 180px; }
+      body .portfolio-page-wrapper .portfolio-page .project-wrapper .project .cover a {
+        margin-top: 50px; }
+  body .contact-page-wrapper .contact-page .contact-me {
+    width: 100%; }
+  body .contact-page-wrapper .contact-page.cp-left .contact-me.box-left .contact-form {
+    width: 80%; }
+  body footer .footer-box.left .footer-message {
+    display: none; }
+  body footer .footer-box.left .footer-contact {
+    width: 80%; }
+
+/*RESPONSIVE NAVIGATION ANIMATION START*/
+@keyframes line1 {
+  from {
+    top: 10px; }
+  to {
+    top: 5px; } }
+@keyframes line1Active {
+  from {
+    top: 5px; }
+  to {
+    top: 10px; } }
+@keyframes line3 {
+  from {
+    top: 10px; }
+  to {
+    bottom: 5px; } }
+@keyframes line3Active {
+  from {
+    bottom: 5px; }
+  to {
+    top: 10px; } }
+/*--------------LINE 3 END-----------------*/
+/*RESPONSIVE NAVIGATION ANIMATION END*/
+
+/*# sourceMappingURL=tablet.css.map */

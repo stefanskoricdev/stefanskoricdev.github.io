@@ -1143,6 +1143,133 @@ body {
         }
     }
 }
+/*-------------BODY END---------*/
 
-@import "keyframes";
-@import "mediaquery";
+@media screen and (max-height: 540px){
+    body{
+        header{
+            .nav-responsive{
+                .nav-responsive-message{
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+/*SCROLL ANIMATION*/
+@keyframes scrollAnime{
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(-150%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+/*BURGER ANIMATION*/
+/* ----------------------------------------- BURGER SLIDE IN -------------------------------------------------- */
+@keyframes lineOneSlideIn {
+    0% {
+        width: 15%
+    }
+
+    100% {
+        width: 75%;
+    }
+}
+
+@keyframes lineTwoSlideIn {
+    from {
+        width: 35%
+    }
+
+    to {
+        width: 75%;
+    }
+}
+
+@keyframes lineThreeSlideIn {
+    from {
+        width: 55%
+    }
+
+    to {
+        width: 75%;
+    }
+}
+
+/* ----------------------------------------- BURGER SLIDE OUT -------------------------------------------------- */
+@keyframes lineOneSlideOut {
+    0% {
+        width: 75%
+    }
+
+    100% {
+        width: 15%;
+    }
+}
+
+@keyframes lineTwoSlideOut {
+    from {
+        width: 75%
+    }
+
+    to {
+        width: 35%;
+    }
+}
+
+@keyframes lineThreeSlideOut {
+    from {
+        width: 75%
+    }
+
+    to {
+        width: 55%;
+    }
+}
+/*NAVIGATION LINKS ANIMATION*/
+@keyframes navLinkAnime {
+    from {
+        -webkit-transform: translateX(-150%);
+        -moz-transform: translateX(-150%);
+        -ms-transform: translateX(-150%);
+        -o-transform: translateX(-150%);
+        transform: translateX(-150%);
+        opacity: 0;
+    }
+
+    to {
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+/*POINTER ON PORTFOLIO COVER ANIMATION*/
+@keyframes pointerAnimation {
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+/*MAIN PAGE ON LOAD*/
+@keyframes mainLeftSlide {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 37.55%;
+    }
+}

@@ -10,7 +10,15 @@
     <meta name="author" content="StephDev">
     <link rel="icon" href="assets/img/new_logo1.png">
     <title>StephDev | Front end web developer | Tech enthusiast</title>
-    <link rel="stylesheet" href="assets/style/main.css">
+    <link rel="stylesheet" href="assets/style/main.css" media="all">
+    <link rel="stylesheet" href="assets/style/mobile.css" media="(min-width: 300px) and (max-width: 750px)">
+    <!--Serves for screens on mobile devices width range from 300px to 750px-->
+    <link rel="stylesheet" href="assets/style/tablet.css" media="(min-width: 750px) and (max-width: 1000px)">
+    <!--Serves for screens on tablet devices width range from 750px to 1000px-->
+    <link rel="stylesheet" href="assets/style/desktop-small.css" media="(min-width: 1000px) and (max-width: 1439px)">
+    <!--Serves for screens on small and medium desktop devices width range from 1440px to 1800px-->
+    <link rel="stylesheet" href="assets/style/desktop-large.css" media="(min-width: 1439px) and (max-width: 1800px)">
+    <!--Serves for screens on medium and large desktop devices width range from 1440px to 1800px-->
     <script src="https://kit.fontawesome.com/d025e4f1ed.js" crossorigin="anonymous"></script>
 
 </head>
@@ -20,9 +28,11 @@
         <img src="assets/img/backgroundpattern2.svg" alt="">
     </div>
     <header id="header">
+
         <div class="logo">
             <a href="index.html">
                 <source srcset="assets/img/logo_responsive.svg" media="(max-width: 1000px)">
+                <!--Serves to change image on screen width lower then 1000px-->
                 <img src="assets/img/logo.png" alt="logo">
             </a>
         </div>

@@ -1,0 +1,34 @@
+* {
+  font-size: 60%; }
+
+body header .logo {
+  padding-left: 3%; }
+body .home-page-wrapper .main-wrapper .picture {
+  top: 5%;
+  left: 2%; }
+body .home-page-wrapper .main-wrapper .right .right-text-wrapper h2 {
+  font-size: 2.5rem; }
+body .home-page-wrapper .main-wrapper .right .right-text-wrapper p {
+  width: 100%; }
+body .portfolio-page-wrapper .portfolio-page .project-wrapper .project {
+  width: 600px; }
+body .contact-page-wrapper .contact-page .contact-me {
+  height: 650px; }
+body .contact-page-wrapper .contact-page.cp-left .contact-me.box-left h1 {
+  font-size: 3rem; }
+body .contact-page-wrapper .contact-page.cp-left .contact-me.box-left h2 {
+  font-size: 2rem; }
+body .contact-page-wrapper .contact-page.cp-left .contact-me.box-left h3 {
+  font-size: 1.5rem; }
+body .contact-page-wrapper .contact-page.cp-right .contact-me.box-right .avatar {
+  width: 200px;
+  height: 200px; }
+  body .contact-page-wrapper .contact-page.cp-right .contact-me.box-right .avatar .hi {
+    width: 100px;
+    height: 100px;
+    top: -65px;
+    right: -65px; }
+body .contact-page-wrapper .contact-page.cp-right .contact-me.box-right .social-media svg {
+  font-size: 3.5rem; }
+
+/*# sourceMappingURL=desktop-large.css.map */

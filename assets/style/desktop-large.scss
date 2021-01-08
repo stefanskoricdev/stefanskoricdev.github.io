@@ -1,0 +1,79 @@
+* {
+    font-size: 60%;
+}
+body{
+    header{
+        .logo{
+            padding-left: 3%;
+        }
+    }
+    .home-page-wrapper{
+        .main-wrapper{
+            .picture{
+                top: 5%;
+                left: 2%;
+            }
+            .right{
+                .right-text-wrapper{
+                    h2{
+                        font-size: 2.5rem;
+                    }
+                    p{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+
+    }
+    .portfolio-page-wrapper{
+        .portfolio-page{
+            .project-wrapper{
+                .project{
+                    width: 600px;
+                }
+            }
+        }
+    }
+    .contact-page-wrapper{
+        .contact-page{
+            .contact-me{
+                height: 650px;  
+            }
+        }
+        .contact-page.cp-left{
+            .contact-me.box-left{
+                h1 {
+                    font-size: 3rem;
+                }
+
+                h2 {
+                    font-size: 2rem;
+                }
+
+                h3 {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+        .contact-page.cp-right{
+            .contact-me.box-right{
+                .avatar{
+                    width: 200px;
+                    height: 200px;
+                    .hi{
+                        width: 100px;
+                        height: 100px;
+                        top: -65px;
+                        right: -65px;
+                    }
+                }
+                .social-media{
+                    svg{
+                        font-size: 3.5rem;
+                    }
+                }
+            }
+        }  
+    }
+}
