@@ -3,7 +3,7 @@
 $mainFont: 'Poppins';
 $Merri: 'Merriweather';
 $mainColor:rgba(179, 68, 55, 1);
-$whiteish: rgb(245, 245, 245);
+$whiteish: rgba(245, 245, 245, 1);
 
 * {
     font-size: 62.5%;
@@ -60,7 +60,7 @@ body {
         transition: background-color 500ms linear;
 
         .logo {
-            width: 300px;
+            width: 600px;
             height: 100%;
             padding-left: 5%;
 
@@ -587,9 +587,8 @@ body {
                     width: 600px;
                     max-width: 90%;
                     height: 300px;
-                    border-radius: 20px;
+                    border-radius: 26px;
                     margin: 50px auto;
-                    padding: 10px;
                     position: relative;
                     opacity: 0;
                     background-size: cover;
@@ -631,7 +630,7 @@ body {
                     }
 
                     .cover:hover {
-                        opacity: .85;
+                        opacity: 1;
                         -webkit-transition: opacity 300ms ease-in-out;
                         -moz-transition: opacity 300ms ease-in-out;
                         -ms-transition: opacity 300ms ease-in-out;
@@ -657,8 +656,11 @@ body {
             }
 
             .project-wrapper.pw-left {
+                .project{
+                    border: 5px solid rgba(245, 245, 245, .8);
+                }
                 .cover {
-                    background-color: $whiteish;
+                    background-color:  rgba(245, 245, 245, .8);
                     color: $mainColor;
 
                     a {
@@ -668,7 +670,6 @@ body {
 
                 .project.first {
                     background-image: url("../img/Portfolio/jwstudio.jpg");
-                    
                 }
 
                 .project.second {
@@ -691,8 +692,11 @@ body {
             }
 
             .project-wrapper.pw-right {
+                .project{
+                    border: 5px solid rgba(179, 68, 55, .8);
+                }
                 .cover {
-                    background-color: $mainColor;
+                    background-color: rgba(179, 68, 55, .8);
                     color: $whiteish;
 
                     a {

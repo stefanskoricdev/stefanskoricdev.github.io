@@ -1,39 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 23.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 150 50" style="enable-background:new 0 0 150 50;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:none;stroke:#66140E;stroke-width:2;stroke-miterlimit:10;}
 	.st1{fill:#B24537;}
 	.st2{fill:none;stroke:#B24537;stroke-miterlimit:10;}
-	.st3{fill:#66140E;}
+	.st3{fill:none;}
 	.st4{font-family:'ModernismStroke';}
-	.st5{font-size:21.7334px;}
+	.st5{font-size:14px;}
 </style>
-<polyline class="st0" points="36.1,13.2 19.6,2 3,13.2 36.1,35.7 19.6,47 3,35.7 "/>
-<g>
-	<polygon class="st1" points="25.7,35.7 14.3,27.6 17.8,27.9 29.2,35.9 	"/>
-	<polygon class="st2" points="25.7,35.7 14.3,27.6 17.8,27.9 29.2,35.9 	"/>
+<g id="Layer_1">
+	<polyline class="st0" points="36.1,13.2 19.6,2 3,13.2 36.1,35.7 19.6,47 3,35.7 	"/>
+	<g>
+		<polygon class="st1" points="25.7,35.7 14.3,27.6 17.8,27.9 29.2,35.9 		"/>
+		<polygon class="st2" points="25.7,35.7 14.3,27.6 17.8,27.9 29.2,35.9 		"/>
+	</g>
+	<g>
+		<polygon class="st1" points="21.4,38.7 9.8,30.5 12.9,30.7 24.5,38.8 		"/>
+		<polygon class="st2" points="21.4,38.7 9.8,30.5 12.9,30.7 24.5,38.8 		"/>
+	</g>
+	<g>
+		<polygon class="st1" points="16.6,41.7 5,33.6 8.1,33.8 19.7,41.9 		"/>
+		<polygon class="st2" points="16.6,41.7 5,33.6 8.1,33.8 19.7,41.9 		"/>
+	</g>
+	<g>
+		<polygon class="st1" points="30.2,15.7 18.8,7.6 22.3,7.9 33.7,15.9 		"/>
+		<polygon class="st2" points="30.2,15.7 18.8,7.6 22.3,7.9 33.7,15.9 		"/>
+	</g>
+	<g>
+		<polygon class="st1" points="25.9,18.7 14.2,10.5 17.4,10.7 29,18.8 		"/>
+		<polygon class="st2" points="25.9,18.7 14.2,10.5 17.4,10.7 29,18.8 		"/>
+	</g>
+	<g>
+		<polygon class="st1" points="21.1,21.7 9.5,13.6 12.6,13.8 24.2,21.9 		"/>
+		<polygon class="st2" points="21.1,21.7 9.5,13.6 12.6,13.8 24.2,21.9 		"/>
+	</g>
 </g>
-<g>
-	<polygon class="st1" points="21.4,38.7 9.8,30.5 12.9,30.7 24.5,38.8 	"/>
-	<polygon class="st2" points="21.4,38.7 9.8,30.5 12.9,30.7 24.5,38.8 	"/>
-</g>
-<g>
-	<polygon class="st1" points="16.6,41.7 5,33.6 8.1,33.8 19.7,41.9 	"/>
-	<polygon class="st2" points="16.6,41.7 5,33.6 8.1,33.8 19.7,41.9 	"/>
-</g>
-<text transform="matrix(1.4583 9.633302e-03 -3.419947e-02 0.9994 44.1868 32.0254)" class="st3 st4 st5">S  LAB</text>
-<g>
-	<polygon class="st1" points="30.2,15.7 18.8,7.6 22.3,7.9 33.7,15.9 	"/>
-	<polygon class="st2" points="30.2,15.7 18.8,7.6 22.3,7.9 33.7,15.9 	"/>
-</g>
-<g>
-	<polygon class="st1" points="25.9,18.7 14.2,10.5 17.4,10.7 29,18.8 	"/>
-	<polygon class="st2" points="25.9,18.7 14.2,10.5 17.4,10.7 29,18.8 	"/>
-</g>
-<g>
-	<polygon class="st1" points="21.1,21.7 9.5,13.6 12.6,13.8 24.2,21.9 	"/>
-	<polygon class="st2" points="21.1,21.7 9.5,13.6 12.6,13.8 24.2,21.9 	"/>
+<g id="Layer_2">
+	<rect x="42.4" y="6" class="st3" width="107.6" height="38.8"/>
+	<text transform="matrix(1.6553 0 0 1 42.4116 15.8027)"><tspan x="0" y="0" class="st1 st4 st5">STEFAN   </tspan><tspan x="0" y="26" class="st1 st4 st5">SKORIC</tspan></text>
 </g>
 </svg>
