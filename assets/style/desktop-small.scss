@@ -1,48 +1,60 @@
 * {
     font-size: 50%;
 }
-body{
+
+body {
     width: 100%;
-    header{
-        .logo{
+
+    header {
+        .logo {
             padding-left: 10px;
         }
     }
-    .home-page-wrapper{
-        .main-wrapper{
-            .picture{
+
+    .home-page-wrapper {
+        .main-wrapper {
+            .picture {
                 top: 5%;
                 left: 0;
                 width: 350px;
                 height: 600px;
             }
-            .right{
-                .right-text-wrapper{
-                    h2{
+
+            .right {
+                .right-text-wrapper {
+                    h2 {
                         font-size: 2.5rem;
                     }
-                    p{
+
+                    p {
                         width: 100%;
                     }
+                }
+
+                .links {
+                    text-align: center;
                 }
             }
         }
     }
-    .about-page-wrapper{
-        .box{
-            .description{
+
+    .about-page-wrapper {
+        .box {
+            .description {
                 width: 70%;
             }
-        }   
+        }
     }
-    .portfolio-page-wrapper{
-        .portfolio-page{
-            .project-wrapper{
-                .project{
+
+    .portfolio-page-wrapper {
+        .portfolio-page {
+            .project-wrapper {
+                .project {
                     width: 500px;
                     height: 250px;
-                    .cover{
-                        a{
+
+                    .cover {
+                        a {
                             margin-top: 100px;
                         }
                     }
@@ -50,14 +62,16 @@ body{
             }
         }
     }
-    .contact-page-wrapper{
-        .contact-page{
-            .contact-me{
-                height: 600px;  
+
+    .contact-page-wrapper {
+        .contact-page {
+            .contact-me {
+                height: 600px;
             }
         }
-        .contact-page.cp-left{
-            .contact-me.box-left{
+
+        .contact-page.cp-left {
+            .contact-me.box-left {
                 h1 {
                     font-size: 3rem;
                 }
@@ -69,50 +83,56 @@ body{
                 h3 {
                     font-size: 1.5rem;
                 }
-                .contact-form{
-                    input{
+
+                .contact-form {
+                    input {
                         height: 20px;
                     }
-                    input[type = submit]{
+
+                    input[type=submit] {
                         margin: 20px auto;
                         width: 100px;
                         height: 40px;
                     }
-                } 
+                }
             }
         }
-        .contact-page.cp-right{
-            .contact-me.box-right{
-                .avatar{
+
+        .contact-page.cp-right {
+            .contact-me.box-right {
+                .avatar {
                     width: 200px;
                     height: 200px;
-                    .hi{
+
+                    .hi {
                         width: 100px;
                         height: 100px;
                         top: -65px;
                         right: -65px;
                     }
                 }
-                .social-media{
-                    svg{
+
+                .social-media {
+                    svg {
                         font-size: 3.5rem;
                     }
                 }
             }
-        }  
+        }
     }
-    footer{
-        .footer-box.left{
-            .footer-contact{
-                ul{
-                    li{
-                        span{
+
+    footer {
+        .footer-box.left {
+            .footer-contact {
+                ul {
+                    li {
+                        span {
                             font-size: 1.6rem;
                         }
                     }
                 }
             }
         }
-        
+
     }
 }

@@ -185,6 +185,8 @@ body {
         font-size: 2.5rem; }
       body .home-page-wrapper .main-wrapper .right .right-text-wrapper p {
         width: 100%; }
+      body .home-page-wrapper .main-wrapper .right .links {
+        text-align: center; }
     body .home-page-wrapper .main-wrapper.loaded {
       height: auto; }
       body .home-page-wrapper .main-wrapper.loaded .left {
@@ -195,6 +197,8 @@ body {
           width: 90%;
           height: 600px;
           margin: 0 5%; }
+    body .home-page-wrapper #scroll {
+      display: none; }
   body .space-page-wrapper {
     display: none; }
   body .about-page-wrapper .box h1 {
@@ -210,6 +214,11 @@ body {
         margin-top: 50px; }
   body .contact-page-wrapper .contact-page .contact-me {
     width: 100%; }
+  body .contact-page-wrapper .contact-page.cp-right .contact-me.box-right .avatar .hi {
+    width: 10rem;
+    height: 10rem;
+    top: -5rem;
+    right: -3rem; }
   body .contact-page-wrapper .contact-page.cp-left .contact-me.box-left .contact-form {
     width: 80%; }
   body footer .footer-box.left .footer-message {

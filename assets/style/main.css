@@ -476,9 +476,9 @@ body {
         body .portfolio-page-wrapper .portfolio-page.left .project-wrapper.pw-left .cover a {
           color: #b34437; }
       body .portfolio-page-wrapper .portfolio-page.left .project-wrapper.pw-left .project.first {
-        background-image: url("../img/Portfolio/jwstudio.jpg"); }
+        background-image: url("../img/Portfolio/dmf_patient_management.jpg"); }
       body .portfolio-page-wrapper .portfolio-page.left .project-wrapper.pw-left .project.second {
-        background-image: url("../img/Portfolio/log-in.jpg"); }
+        background-image: url("../img/Portfolio/divine_wine_bar.jpg"); }
       body .portfolio-page-wrapper .portfolio-page.left .project-wrapper.pw-left .project.third {
         background-image: url("../img/Portfolio/my_favourite_movies_app.jpg"); }
     body .portfolio-page-wrapper .portfolio-page.right h1 {
@@ -797,10 +797,10 @@ body {
           font-size: 2.5rem;
           margin: 0 10px; }
   body .copyright {
-    width: 100%;
+    width: 96%;
     height: auto;
     background-color: #b34437;
-    padding: 20px;
+    padding: 2%;
     color: whitesmoke;
     text-align: center; }
     body .copyright h1 {

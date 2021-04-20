@@ -14,6 +14,8 @@ body {
     font-size: 2.5rem; }
   body .home-page-wrapper .main-wrapper .right .right-text-wrapper p {
     width: 100%; }
+  body .home-page-wrapper .main-wrapper .right .links {
+    text-align: center; }
   body .about-page-wrapper .box .description {
     width: 70%; }
   body .portfolio-page-wrapper .portfolio-page .project-wrapper .project {

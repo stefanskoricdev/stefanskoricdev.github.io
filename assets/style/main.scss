@@ -32,6 +32,7 @@ $whiteish: rgba(245, 245, 245, 1);
     }
 
 }
+
 body {
     padding: 0;
     box-sizing: border-box;
@@ -41,6 +42,7 @@ body {
     background-size: contain;
     background-repeat: repeat;
     overflow-x: hidden;
+
     #preload {
         display: none;
     }
@@ -66,7 +68,8 @@ body {
 
             a {
                 width: 100%;
-                img{
+
+                img {
                     width: 100%;
                     height: 100%;
                 }
@@ -83,7 +86,8 @@ body {
 
 
     }
-    .header-active{
+
+    .header-active {
         -webkit-transition: background-color 500ms linear;
         -moz-transition: background-color 500ms linear;
         -ms-transition: background-color 500ms linear;
@@ -217,6 +221,7 @@ body {
             width: 80%;
             display: flex;
             position: relative;
+
             .left {
                 width: 0%;
                 background-color: $mainColor;
@@ -318,7 +323,7 @@ body {
                 -ms-transition: opacity 500ms linear 800ms;
                 -o-transition: opacity 500ms linear 800ms;
                 transition: opacity 500ms linear 800ms;
-                
+
             }
 
             .right {
@@ -414,6 +419,7 @@ body {
                 display: flex;
                 flex-direction: column;
                 opacity: 0;
+
                 h2 {
                     font-size: 3.5rem;
                     display: flex;
@@ -528,9 +534,10 @@ body {
             }
         }
     }
-    .about-page-wrapper.loaded{
-        .box{
-            h1{
+
+    .about-page-wrapper.loaded {
+        .box {
+            h1 {
                 -webkit-transform: translateX(0);
                 -moz-transform: translateX(0);
                 -ms-transform: translateX(0);
@@ -542,7 +549,8 @@ body {
                 -o-transition: transform 800ms linear;
                 transition: transform 800ms linear;
             }
-            .textbox{
+
+            .textbox {
                 opacity: 1;
                 -webkit-transition: opacity 800ms linear 800ms;
                 -moz-transition: opacity 800ms linear 800ms;
@@ -550,7 +558,8 @@ body {
                 -o-transition: opacity 800ms linear 800ms;
                 transition: opacity 800ms linear 800ms;
             }
-            .description{
+
+            .description {
                 opacity: 1;
                 -webkit-transition: opacity 500ms linear 1.6s;
                 -moz-transition: opacity 500ms linear 1.6s;
@@ -564,6 +573,7 @@ body {
     /*-------------SECOND (ABOUT PAGE) PAGE END---------*/
     .portfolio-page-wrapper {
         display: flex;
+
         .portfolio-page {
             width: 50%;
             position: relative;
@@ -593,6 +603,7 @@ body {
                     opacity: 0;
                     background-size: cover;
                     background-position: center;
+
                     .cover {
                         width: 100%;
                         height: 100%;
@@ -656,11 +667,12 @@ body {
             }
 
             .project-wrapper.pw-left {
-                .project{
+                .project {
                     border: 5px solid rgba(245, 245, 245, .8);
                 }
+
                 .cover {
-                    background-color:  rgba(245, 245, 245, .8);
+                    background-color: rgba(245, 245, 245, .8);
                     color: $mainColor;
 
                     a {
@@ -669,13 +681,14 @@ body {
                 }
 
                 .project.first {
-                    background-image: url("../img/Portfolio/jwstudio.jpg");
+                    background-image: url("../img/Portfolio/dmf_patient_management.jpg");
                 }
 
                 .project.second {
-                    background-image: url("../img/Portfolio/log-in.jpg");
+                    background-image: url("../img/Portfolio/divine_wine_bar.jpg");
                 }
-                .project.third{
+
+                .project.third {
                     background-image: url("../img/Portfolio/my_favourite_movies_app.jpg");
                 }
             }
@@ -692,9 +705,10 @@ body {
             }
 
             .project-wrapper.pw-right {
-                .project{
+                .project {
                     border: 5px solid rgba(179, 68, 55, .8);
                 }
+
                 .cover {
                     background-color: rgba(179, 68, 55, .8);
                     color: $whiteish;
@@ -714,9 +728,10 @@ body {
             }
         }
     }
-    .portfolio-page-wrapper.loaded{
-        .portfolio-page{
-            h1{
+
+    .portfolio-page-wrapper.loaded {
+        .portfolio-page {
+            h1 {
                 -webkit-transform: translateX(0);
                 -moz-transform: translateX(0);
                 -ms-transform: translateX(0);
@@ -728,8 +743,9 @@ body {
                 -o-transition: transform 800ms linear;
                 transition: transform 800ms linear;
             }
-            .project-wrapper.pw-left{
-                .project.first{
+
+            .project-wrapper.pw-left {
+                .project.first {
                     opacity: 1;
                     -webkit-transition: opacity 800ms linear 800ms;
                     -moz-transition: opacity 800ms linear 800ms;
@@ -737,7 +753,8 @@ body {
                     -o-transition: opacity 800ms linear 800ms;
                     transition: opacity 800ms linear 800ms;
                 }
-                .project.second{
+
+                .project.second {
                     opacity: 1;
                     -webkit-transition: opacity 800ms linear 1.6s;
                     -moz-transition: opacity 800ms linear 1.6s;
@@ -745,7 +762,8 @@ body {
                     -o-transition: opacity 800ms linear 1.6s;
                     transition: opacity 800ms linear 1.6s;
                 }
-                .project.third{
+
+                .project.third {
                     opacity: 1;
                     -webkit-transition: opacity 800ms linear 2.4s;
                     -moz-transition: opacity 800ms linear 2.4s;
@@ -754,8 +772,9 @@ body {
                     transition: opacity 800ms linear 2.4s;
                 }
             }
-            .project-wrapper.pw-right{
-                .project.first{
+
+            .project-wrapper.pw-right {
+                .project.first {
                     opacity: 1;
                     -webkit-transition: opacity 800ms linear 800ms;
                     -moz-transition: opacity 800ms linear 800ms;
@@ -763,7 +782,8 @@ body {
                     -o-transition: opacity 800ms linear 800ms;
                     transition: opacity 800ms linear 800ms;
                 }
-                .project.second{
+
+                .project.second {
                     opacity: 1;
                     -webkit-transition: opacity 800ms linear 1.6s;
                     -moz-transition: opacity 800ms linear 1.6s;
@@ -848,9 +868,11 @@ body {
                         font-family: $Merri;
                         background: inherit;
                     }
-                    input[type = value]{
+
+                    input[type=value] {
                         background: inherit;
                     }
+
                     input[type=submit] {
                         margin: 30px auto;
                         border: none;
@@ -976,9 +998,10 @@ body {
             }
         }
     }
-    .contact-page-wrapper.loaded{
-        .contact-page{
-            .contact-me.box-left{
+
+    .contact-page-wrapper.loaded {
+        .contact-page {
+            .contact-me.box-left {
                 -webkit-transform: translateX(0);
                 -moz-transform: translateX(0);
                 -ms-transform: translateX(0);
@@ -990,7 +1013,8 @@ body {
                 -o-transition: transform 800ms linear;
                 transition: transform 800ms linear;
             }
-            .contact-me.box-right{
+
+            .contact-me.box-right {
                 -webkit-transform: translateX(0);
                 -moz-transform: translateX(0);
                 -ms-transform: translateX(0);
@@ -1001,8 +1025,9 @@ body {
                 -ms-transition: transform 800ms linear 800ms;
                 -o-transition: transform 800ms linear 800ms;
                 transition: transform 800ms linear 800ms;
-                .avatar{
-                    .hi{
+
+                .avatar {
+                    .hi {
                         opacity: 1;
                         -webkit-transition: opacity 800ms linear 1.6s;
                         -moz-transition: opacity 800ms linear 1.6s;
@@ -1072,15 +1097,16 @@ body {
 
                     li {
                         margin: 45px 0 0 20px;
+
                         svg {
                             font-size: 2rem;
                         }
-    
+
                         span {
                             font-size: 2rem;
                             padding-left: 15px;
                         }
-                    }  
+                    }
                 }
             }
         }
@@ -1130,10 +1156,10 @@ body {
 
     /*-------------FIFTH (FOOTER) PAGE END---------*/
     .copyright {
-        width: 100%;
+        width: 96%;
         height: auto;
         background-color: $mainColor;
-        padding: 20px;
+        padding: 2%;
         color: $whiteish;
         text-align: center;
 
@@ -1147,13 +1173,14 @@ body {
         }
     }
 }
+
 /*-------------BODY END---------*/
 
-@media screen and (max-height: 540px){
-    body{
-        header{
-            .nav-responsive{
-                .nav-responsive-message{
+@media screen and (max-height: 540px) {
+    body {
+        header {
+            .nav-responsive {
+                .nav-responsive-message {
                     display: none;
                 }
             }
@@ -1162,17 +1189,20 @@ body {
 }
 
 /*SCROLL ANIMATION*/
-@keyframes scrollAnime{
-    0%{
+@keyframes scrollAnime {
+    0% {
         transform: translateX(0);
     }
-    50%{
+
+    50% {
         transform: translateX(-150%);
     }
-    100%{
+
+    100% {
         transform: translateX(0);
     }
 }
+
 /*BURGER ANIMATION*/
 /* ----------------------------------------- BURGER SLIDE IN -------------------------------------------------- */
 @keyframes lineOneSlideIn {
@@ -1235,6 +1265,7 @@ body {
         width: 55%;
     }
 }
+
 /*NAVIGATION LINKS ANIMATION*/
 @keyframes navLinkAnime {
     from {
@@ -1255,18 +1286,22 @@ body {
         opacity: 1;
     }
 }
+
 /*POINTER ON PORTFOLIO COVER ANIMATION*/
 @keyframes pointerAnimation {
-    0%{
+    0% {
         transform: translateX(0);
     }
-    50%{
+
+    50% {
         transform: translateX(100%);
     }
-    100%{
+
+    100% {
         transform: translateX(0);
     }
 }
+
 /*MAIN PAGE ON LOAD*/
 @keyframes mainLeftSlide {
     from {
